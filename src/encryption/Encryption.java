@@ -7,7 +7,7 @@ public class Encryption {
 
     public static void main(String[] args) {
 
-        String original = "opelka4056";
+        String original = "password";
         System.out.println(original);
 
         KeyPair kp = encrypt(original);
